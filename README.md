@@ -1,2 +1,2 @@
-# SummerPlayer_iOS
-SummerPlayer iOS Version.
+# Android Opengl sample project
+-Basic Texture
