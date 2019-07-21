@@ -1,3 +1,3 @@
 # KotlinWithGraphic
 
-With many samples 
+With many samples. 
