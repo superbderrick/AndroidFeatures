@@ -1,3 +1,3 @@
-# KotlinWithGraphic
+# Dice_Roller
 
-With many samples. 
+Android Simple app with kotlin
