@@ -8,8 +8,7 @@ Developing Android Apps with Kotlin , Lesson 1
 ### Demo
 ![demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
 
-### Go to DiceRoller Branch.
-
+![Go to DiceRoller Branch.](https://github.com/superbderrick/DiceRoller/tree/DiceRoller)
 
 
 
