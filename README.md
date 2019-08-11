@@ -4,7 +4,7 @@ Simple Databing Example
 
   
 ### Demo
-![demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
+![demo](https://github.com/superbderrick/AndroidFeatures/blob/Databinding/AboutMe/demo/databinding.gif)
 
 
 ## Reference Developing Android Apps with Kotlin , Lesson 1 
