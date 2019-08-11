@@ -1,6 +1,6 @@
 # AndroidFeatures
 
-In order to remind some android features make some demo projects with udacity kotlin course.
+In order to study some android features with simple app projects
 
 ## FeatureList
   - Basic app
@@ -8,14 +8,13 @@ In order to remind some android features make some demo projects with udacity ko
   - Constraint Layout
   
   
-
-## Android Simple DiceRoller
+## Basic APP - DiceRoller
 
 ![Demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
 
 [DiceRoller](https://github.com/superbderrick/AndroidFeatures/tree/simpleapp/DiceRoller)
 
-## Simple Data binding 
+## Data binding  - About Me
 
 ![Demo](https://github.com/superbderrick/AndroidFeatures/blob/master/demo/databinding.gif)
 
