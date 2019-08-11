@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    private val myName : MyName = MyName("Derrick")
+    private val personalInforamtion : PersonalInforamtion = PersonalInforamtion("Derrick")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.myName = myName
+        binding.personalInforamtion = personalInforamtion
 
         binding.doneButton.setOnClickListener {
             addNickName(it)
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     private fun addNickName(view:View) {
 
         binding.apply {
-            myName?.nickname = nicknameEdit.text.toString()
+            personalInforamtion?.nickname = nicknameEdit.text.toString()
 
 
             invalidateAll()

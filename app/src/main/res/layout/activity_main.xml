@@ -19,8 +19,8 @@ limitations under the License. -->
         <!-- Declare a variable by specifying a name and a data type. -->
         <!-- Use fully qualified name for the type. -->
         <variable
-                name="myName"
-                type="superbderrick.github.io.aboutme.MyName" />
+                name="personalInforamtion"
+                type="superbderrick.github.io.aboutme.PersonalInforamtion" />
     </data>
 
     <LinearLayout
@@ -35,7 +35,7 @@ limitations under the License. -->
                 style="@style/NameStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@={myName.name}"
+                android:text="@={personalInforamtion.name}"
                 android:textAlignment="center" />
 
         <!-- Use "@={aboutMe.nickname}" annotation to reference a property -->
@@ -45,7 +45,7 @@ limitations under the License. -->
                 style="@style/NameStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@={myName.nickname}"
+                android:text="@={personalInforamtion.nickname}"
                 android:textAlignment="center"
                 android:visibility="gone" />
 
@@ -58,7 +58,7 @@ limitations under the License. -->
                 android:layout_height="wrap_content"
                 android:hint="@string/what_is_your_nickname"
                 android:inputType="textPersonName"
-                android:text="@={myName.nickname}"
+                android:text="@={personalInforamtion.nickname}"
                 android:textAlignment="center" />
 
         <Button
