@@ -6,13 +6,14 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import kotlinx.android.synthetic.main.activity_main.*
 import superbderrick.github.io.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    private val personalInforamtion : PersonalInforamtion = PersonalInforamtion("Derrick")
+    private val personalInformation : PersonalInformation = PersonalInformation("Derrick")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,26 +21,28 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.personalInforamtion = personalInforamtion
+        binding.personalInformation = personalInformation
 
         binding.doneButton.setOnClickListener {
-            addNickName(it)
+            insetPersonalInformation(it)
         }
 
     }
 
-    private fun addNickName(view:View) {
+    private fun insetPersonalInformation(view:View) {
 
         binding.apply {
-            personalInforamtion?.nickname = nicknameEdit.text.toString()
-
+            personalInformation?.nickname = "SuperbDerrick"
+            personalInformation?.job = "Software Engineer"
+            personalInformation?.age = "30"
 
             invalidateAll()
 
-            nicknameEdit.visibility = View.GONE
-            doneButton.visibility = View.GONE
 
             nicknameText.visibility = View.VISIBLE
+            job_text.visibility = View.VISIBLE
+            age_text.visibility = View.VISIBLE
+            doneButton.visibility = View.GONE
 
             hideKeyboard(view)
         }
@@ -49,7 +52,6 @@ class MainActivity : AppCompatActivity() {
     private fun hideKeyboard(view:View) {
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(view.windowToken, 0)
-
 
     }
 

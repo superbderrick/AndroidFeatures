@@ -21,4 +21,4 @@ package superbderrick.github.io.aboutme
  * Used to demonstrate data binding.
  */
 
-data class PersonalInforamtion(var name: String = "", var nickname: String = "")
+data class PersonalInformation(var name: String = "", var nickname: String = "", var job:String ="", var age:String = "")
