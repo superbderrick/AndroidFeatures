@@ -6,7 +6,7 @@ In order to remind some android features make some demo projects with udacity ko
 
 ![Demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
 
-[DiceRoller Branch](https://github.com/superbderrick/DiceRoller/tree/DiceRoller)
+[DiceRoller](https://github.com/superbderrick/AndroidFeatures/tree/simpleapp/DiceRoller)
 
 
 ## Reference
