@@ -1,6 +1,6 @@
-# DiceRoller
+# AndroidFeatures
 
-Simple android DiceRoller App
+In order to remind some android features , made it some demo projects with udacity kotlin course.
 
 Developing Android Apps with Kotlin , Lesson 1 
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
