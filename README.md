@@ -9,7 +9,7 @@ In order to remind some android features make some demo projects with udacity ko
 [DiceRoller Branch](https://github.com/superbderrick/DiceRoller/tree/DiceRoller)
 
 
-#Reference
+## Reference
 Developing Android Apps with Kotlin , Lesson 1 
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
 
