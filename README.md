@@ -1,17 +1,15 @@
-# AndroidFeatures
+# Databing sample, About me
 
-In order to remind some android features make some demo projects with udacity kotlin course.
+Simple Databing Example
 
-## Android Simple DiceRoller
-
-![Demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
-
-[DiceRoller](https://github.com/superbderrick/AndroidFeatures/tree/simpleapp/DiceRoller)
+  
+### Demo
+![demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
 
 
-## Reference
-Developing Android Apps with Kotlin , Lesson 1 
+## Reference Developing Android Apps with Kotlin , Lesson 1 
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
+
 
 
 
