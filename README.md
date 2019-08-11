@@ -2,6 +2,13 @@
 
 In order to remind some android features make some demo projects with udacity kotlin course.
 
+## FeatureList
+  - Basic app
+  - Data binding
+  - Constraint Layout
+  
+  
+
 ## Android Simple DiceRoller
 
 ![Demo](https://github.com/superbderrick/DiceRoller/blob/master/demo/demo.gif)
