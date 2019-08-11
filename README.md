@@ -8,6 +8,14 @@ In order to remind some android features make some demo projects with udacity ko
 
 [DiceRoller](https://github.com/superbderrick/AndroidFeatures/tree/simpleapp/DiceRoller)
 
+## Simple Data binding 
+
+![Demo](https://github.com/superbderrick/AndroidFeatures/blob/master/demo/databinding.gif)
+
+[Databinding](https://github.com/superbderrick/AndroidFeatures/tree/Databinding/AboutMe)
+
+
+
 
 ## Reference
 Developing Android Apps with Kotlin , Lesson 1 
