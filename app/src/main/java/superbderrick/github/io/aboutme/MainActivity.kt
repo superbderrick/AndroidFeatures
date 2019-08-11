@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             myName?.nickname = nicknameEdit.text.toString()
 
-            //need to invalidate all datas.
 
             invalidateAll()
 
@@ -42,10 +41,15 @@ class MainActivity : AppCompatActivity() {
 
             nicknameText.visibility = View.VISIBLE
 
-            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.hideSoftInputFromWindow(view.windowToken, 0)
-
+            hideKeyboard(view)
         }
+
+    }
+
+    private fun hideKeyboard(view:View) {
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
+
 
     }
 
