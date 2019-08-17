@@ -22,6 +22,12 @@ In order to study some android features with simple app projects
 [Databinding](https://github.com/superbderrick/AndroidFeatures/tree/Databinding/AboutMe)
 
 
+## Android Custom View  - Smile
+
+![Demo](https://github.com/superbderrick/AndroidFeatures/blob/CustomView/Smile/demo/customview.gif)
+
+[Databinding](https://github.com/superbderrick/AndroidFeatures/tree/CustomView/Smile)
+
 
 
 ## Reference
