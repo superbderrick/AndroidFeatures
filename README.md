@@ -5,6 +5,7 @@ In order to study some android features with simple app projects
 ## FeatureList
   - Basic app
   - Data binding
+  - Android Custom View
   - Constraint Layout
   
   
@@ -26,7 +27,7 @@ In order to study some android features with simple app projects
 ## Reference
 Developing Android Apps with Kotlin , Lesson 1 
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
-
+- https://www.raywenderlich.com/142-android-custom-view-tutorial
 
 
 
